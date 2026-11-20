@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Психолог Анастасия Семякина. Бережная и профессиональная помощь при тревоге, депрессии и жизненных кризисах. Индивидуальные консультации и терапевтические группы."
+		/>
+		<title>Анастасия Семякина | Психолог | Челябинск</title>
+		<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+		<link rel="apple-touch-icon" sizes="180x180" href="icons/favicon.ico/apple-touch-icon.webp" />
+		<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon.ico/favicon-32x32.webp" />
+		<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon.ico/favicon-16x16.webp" />
+		<link rel="manifest" href="site.webmanifest" />
+		<meta name="msapplication-TileColor" content="#08d6e9" />
+		<meta name="theme-color" content="#2f6b73" />
+		<meta name="yandex-verification" content="" /> <!-- TODO: вставить код верификации Яндекса -->
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<a href="#main-content" class="skip-link">Перейти к основному содержанию</a>
+		<header class="header" id="header">
+			<nav class="nav container" aria-label="Основная навигация">
+				<a href="#home" class="nav__logo">
+					Анастасия Семякина
+					<span class="nav__logo-credential">Психолог</span>
+				</a>
+				<button
+					class="nav__toggle"
+					id="nav-toggle"
+					aria-label="Открыть меню"
+					aria-expanded="false"
+					aria-controls="nav-menu">
+					<i class="bx bx-menu" aria-hidden="true"></i>
+				</button>
+				<div class="nav__menu" id="nav-menu" role="navigation">
+					<ul class="nav__list">
+						<li class="nav__item"><a href="#home" class="nav__link active">Главная</a></li>
+						<li class="nav__item"><a href="#about" class="nav__link">Обо мне</a></li>
+						<li class="nav__item"><a href="#experience" class="nav__link">Опыт</a></li>
+						<li class="nav__item"><a href="#services" class="nav__link">Услуги</a></li>
+						<li class="nav__item"><a href="#resources" class="nav__link">Материалы</a></li>
+						<li class="nav__item"><a href="#contact" class="nav__link">Контакты</a></li>
+					</ul>
+					<button
+						class="nav__close"
+						id="nav-close"
+						aria-label="Закрыть меню">
+						<i class="bx bx-x" aria-hidden="true"></i>
+					</button>
+				</div>
+				<div class="nav__overlay" id="nav-overlay"></div>
+			</nav>
+		</header>
+		<main class="main" id="main-content">
+			<section class="home" id="home" aria-label="Главная страница">
+				<div class="home__container container">
+					<div class="home__data">
+						<div class="home__img">
+							<img
+								src="images/anastasia.webp"
+								alt="Фотография психолога Анастасии Семякиной"
+								width="200"
+								height="200"
+								loading="eager" />
+						</div>
+						<h1 class="home__title">
+							Анастасия Семякина,
+							<br />
+							Психолог
+						</h1>
+						<a href="#contact" class="button home__button">Связаться со мной</a>
+					</div>
+				</div>
+			</section>
+			<section class="about section" id="about" aria-label="Обо мне">
+				<h2 class="section-title">Обо мне</h2>
+				<div class="about__container container">
+					<div class="about__data">
+						<!-- TODO: Заменить эти тексты на реальный рассказ -->
+						<p class="about__description">
+							Кто ты, с какими запросами/задачами работаешь. <-- вот тут пишешь
+						</p>
+						<p class="about__description">
+							опыт (в годах), ключевые методы работы и подход к клиентам. <-- вот тут пишешь
+						</p>
+						<p class="about__description">
+							Для меня важно не только профессиональное развитие,
+							но и человеческий контакт. Я верю в то, что каждый человек обладает
+							внутренними ресурсами для изменений, и моя задача — помочь вам их обнаружить.
+						</p>
+						<!--===============================================-->
+					</div>
+					<div class="about__info">
+						<h3 class="about__info-title">Профессиональная информация</h3>
+						<div class="about__info-data">
+							<i class="bx bx-user about__info-icon" aria-hidden="true"></i>
+							<span class="about__info-subtitle">Анастасия Семякина</span>
+						</div>
+						<div class="about__info-data">
+							<i class="bx bx-id-card about__info-icon" aria-hidden="true"></i>
+							<ul class="about__info-list">
+								<!-- TODO: Заменить на реальные дипломы -->
+								<li class="about__info-subtitle">Дипломированный психолог</li>
+								<li class="about__info-subtitle-small">[ВУЗ  год окончания]</li>
+							</ul>
+						</div>
+						<!-- TODO: на чем спец -->
+						<div class="about__info-data">
+							<i class="bx bxs-certification about__info-icon" aria-hidden="true"></i>
+							<ul>
+								<li class="about__info-subtitle">Повышение квалификации</li>
+								<li class="about__info-subtitle-small">[Название курса или метода, год начала]</li>
+							</ul>
+						</div>
+						<div class="about__info-data">
+							<i class="bx bxs-phone about__info-icon" aria-hidden="true"></i>
+							<!-- TODO: Заменить на реальный номер -->
+							<a href="tel:+79001234567" aria-label="Позвонить по номеру +7 (900) 123-45-67">+7 (900) 123-45-67</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- =============== SPECIALTIES =============== -->
+			<section class="special__approach section" aria-label="Специализация и терапевтический подход">
+				<div class="insurance-mode__group grid">
+					<div class="mode grid">
+						<h3 class="about__info-title">С кем я работаю</h3>
+						<div class="about__info-data">
+							<i class="bx bxs-group about__info-icon" aria-hidden="true"></i>
+							<ul>
+								<!-- TODO: что -->
+								<li class="about__info-subtitle">Взрослые</li>
+								<li class="about__info-subtitle-small">Индивидуальные консультации</li>
+								<li class="about__info-subtitle-small">Пары</li>
+							</ul>
+						</div>
+						<div class="about__info-data">
+							<i class="bx bx-laptop about__info-icon" aria-hidden="true"></i>
+							<ul>
+								<li class="about__info-subtitle">Формат работы</li>
+								<li class="about__info-subtitle-small">Онлайн (видеоконсультации)</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- TODO: тут тоже нужно посматреть -->
+				<h3 class="about__info-title">Мои специализации</h3>
+				<div class="specialties__group grid">
+					<div class="spec-1 grid">
+						<div class="about__info-data">
+							<i class="bx bx-sad about__info-icon" aria-hidden="true"></i>
+							<ul class="about__info-list">
+								<li class="about__info-subtitle">Расстройства настроения</li>
+								<li class="about__info-subtitle-small">Депрессия</li>
+								<li class="about__info-subtitle-small">Биполярное расстройство (БАР)</li>
+								<li class="about__info-subtitle-small">Самооценка и уверенность в себе</li>
+							</ul>
+						</div>
+						<div class="about__info-data">
+							<i class="bx bxs-brain about__info-icon" aria-hidden="true"></i>
+							<ul class="about__info-list">
+								<li class="about__info-subtitle">Особенности развития</li>
+								<li class="about__info-subtitle-small">СДВГ (у взрослых)</li>
+							</ul>
+						</div>
+						<div class="about__info-data">
+							<i class="bx bx-tired about__info-icon" aria-hidden="true"></i>
+							<ul class="about__info-list">
+								<li class="about__info-subtitle">Тревожные расстройства</li>
+								<li class="about__info-subtitle-small">Тревога и панические атаки</li>
+								<li class="about__info-subtitle-small">ОКР</li>
+								<li class="about__info-subtitle-small">Хронический стресс</li>
+							</ul>
+						</div>
+					</div>
+					<div class="spec-2 grid">
+						<div class="about__info-data">
+							<i class="bx bx-heart-circle about__info-icon" aria-hidden="true"></i>
+							<ul class="about__info-list">
+								<li class="about__info-subtitle">Межличностные отношения</li>
+								<li class="about__info-subtitle-small">Проблемы в отношениях</li>
+								<li class="about__info-subtitle-small">Созависимость</li>
+								<li class="about__info-subtitle-small">Переживание развода</li>
+								<li class="about__info-subtitle-small">Семейные конфликты</li>
+							</ul>
+						</div>
+						<div class="about__info-data">
+							<i class="bx bx-bookmark-alt about__info-icon" aria-hidden="true"></i>
+							<ul class="about__info-list">
+								<li class="about__info-subtitle">Другие запросы</li>
+								<li class="about__info-subtitle-small">Управление гневом</li>
+								<li class="about__info-subtitle-small">Навыки совладания (копинг-стратегии)</li>
+								<li class="about__info-subtitle-small">Трудности в учебе</li>
+								<li class="about__info-subtitle-small">Карьерное консультирование</li>
+								<li class="about__info-subtitle-small">Поиск смысла и духовность</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<h3 class="about__info-title">Методы и подходы</h3>
+				<div class="approach__group grid">
+					<div class="about__info-data">
+						<i class="bx bx-universal-access about__info-icon" aria-hidden="true"></i>
+						<ul class="about__info-list">
+							<li class="about__info-subtitle">КПТ</li>
+							<li class="about__info-subtitle-small">Когнитивно-поведенческая терапия</li>
+						</ul>
+					</div>
+					<div class="about__info-data">
+						<i class="bx bxs-flag-alt about__info-icon" aria-hidden="true"></i>
+						<ul class="about__info-list">
+							<li class="about__info-subtitle">Культурно-чувствительный подход</li>
+						</ul>
+					</div>
+					<div class="about__info-data">
+						<i class="bx bxs-florist about__info-icon" aria-hidden="true"></i>
+						<ul class="about__info-list">
+							<li class="about__info-subtitle">Майндфулнес</li>
+							<li class="about__info-subtitle-small">Терапия осознанностью</li>
+						</ul>
+					</div>
+					<div class="about__info-data">
+						<i class="bx bx-shield-quarter about__info-icon" aria-hidden="true"></i>
+						<ul class="about__info-list">
+							<li class="about__info-subtitle">Ресурсный подход</li>
+							<li class="about__info-subtitle-small">Опора на сильные стороны</li>
+						</ul>
+					</div>
+					<div class="about__info-data">
+						<i class="bx bx-band-aid about__info-icon" aria-hidden="true"></i>
+						<ul class="about__info-list">
+							<li class="about__info-subtitle">Травмофокусированный подход</li>
+						</ul>
+					</div>
+					<div class="about__info-data">
+						<i class="bx bx-user-check about__info-icon" aria-hidden="true"></i>
+						<ul class="about__info-list">
+							<li class="about__info-subtitle">Валидация</li>
+							<li class="about__info-subtitle-small">Безоценочное принятие</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!--===== EXPERIENCE =====--> <!--  TODO: все меняем --> 
+			<section class="experience section" id="experience" aria-label="Профессиональный опыт и образование">
+				<div class="exp__container grid">
+					<h2 class="section-title">Мой опыт работы</h2>
+					<div class="exp__content">
+						<div>
+							<h3 class="exp__year">2026 - наст. время</h3>
+							<span class="exp__organization">Частная практика</span>
+						</div>
+						<div class="exp__time">
+							<span class="exp__rounder"></span>
+							<span class="exp__line"></span>
+						</div>
+						<div>
+							<h3 class="exp__position">Психолог-консультант</h3>
+							<span class="exp__specialty">Индивидуальные консультации</span>
+						</div>
+					</div>
+					<div class="exp__content">
+						<div>
+							<h3 class="exp__year">...</h3>
+							<span class="exp__organization">...</span>
+						</div>
+						<div class="exp__time">
+							<span class="exp__rounder"></span>
+							<span class="exp__line"></span>
+						</div>
+						<div>
+							<h3 class="exp__position">...</h3>
+							<span class="exp__specialty">...</span>
+						</div>
+					</div>
+					<div class="exp__content">
+						<div>
+							<h3 class="exp__year">...</h3>
+							<span class="exp__organization">
+								<a href="#" target="_blank" rel="noopener noreferrer">...</a>
+							</span>
+						</div>
+						<div class="exp__time">
+							<span class="exp__rounder"></span>
+							<span class="exp__line"></span>
+						</div>
+						<div>
+							<h3 class="exp__position">Стажер-психолог</h3>
+							<span class="exp__description">...</span>
+						</div>
+					</div>
+				</div>
+				<div class="exp__container grid">
+					<h2 class="section-title">Мое образование</h2>
+					<div class="exp__content">
+						<div>
+							<h3 class="exp__year">2020</h3>
+							<span class="exp__university">[Название ВУЗа]</span>
+						</div>
+						<div class="exp__time">
+							<span class="exp__rounder"></span>
+							<span class="exp__line"></span>
+						</div>
+						<div>
+							<h3 class="exp__position">студент 1 курса</h3>
+							<span class="exp__specialty">психология/темы</span>
+						</div>
+					</div>
+					<div class="exp__content">
+						<div>
+							<h3 class="exp__year">...</h3>
+							<span class="exp__university">...</span>
+						</div>
+						<div class="exp__time">
+							<span class="exp__rounder"></span>
+							<span class="exp__line"></span>
+						</div>
+						<div>
+							<h3 class="exp__position">...</h3>
+							<span class="exp__specialty">...</span>
+						</div>
+					</div>
+					<div class="exp__content">
+						<div>
+							<h3 class="exp__year">...</h3>
+							<span class="exp__university">...</span>
+						</div>
+						<div class="exp__time">
+							<span class="exp__rounder"></span>
+							<span class="exp__line"></span>
+						</div>
+						<div>
+							<h3 class="exp__position">...</h3>
+							<span class="exp__specialty">...</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="services section" id="services" aria-label="Предлагаемые услуги психолога">
+				<h2 class="section-title">Мои услуги</h2>
+				<div class="services__container grid">
+					<!-- УСЛУГА 1 -->
+					<div class="services__content">
+						<div class="services__header">
+							<i class="bx bx-group services__icon" aria-hidden="true"></i>
+							<h3 class="services__title">Терапия</h3>
+						</div>
+						<div class="services__body">
+							<p class="services__description">[Здесь текст о том, что такое терапия и как она помогает]</p>
+						</div>
+						<button class="services__toggle" aria-expanded="false" aria-label="Подробнее о терапии">
+							<i class="bx bx-chevron-down services__chevron" aria-hidden="true"></i>
+						</button>
+					</div>
+					<!-- УСЛУГА 2 -->
+					<div class="services__content">
+						<div class="services__header">
+							<i class="bx bx-universal-access services__icon" aria-hidden="true"></i>
+							<h3 class="services__title">Когнитивно-поведенческая терапия (КПТ)</h3>
+						</div>
+						<div class="services__body">
+							<p class="services__description">...</p>
+						</div>
+						<button class="services__toggle" aria-expanded="false" aria-label="Подробнее о КПТ">
+							<i class="bx bx-chevron-down services__chevron" aria-hidden="true"></i>
+						</button>
+					</div>
+					<!-- УСЛУГА 3 -->
+					<div class="services__content">
+						<div class="services__header">
+							<i class="bx bxs-florist services__icon" aria-hidden="true"></i>
+							<h3 class="services__title">Терапия осознанностью (Майндфулнес)</h3>
+						</div>
+						<div class="services__body">
+							<p class="services__description">...</p>
+						</div>
+						<button class="services__toggle" aria-expanded="false" aria-label="Подробнее о майндфулнес">
+							<i class="bx bx-chevron-down services__chevron" aria-hidden="true"></i>
+						</button>
+					</div>
+					<!-- УСЛУГА 4 -->
+					<div class="services__content">
+						<div class="services__header">
+							<i class="bx bx-plus-medical services__icon" aria-hidden="true"></i>
+							<h3 class="services__title">Работа с горем и утратой</h3>
+						</div>
+						<div class="services__body">
+							<p class="services__description">...</p>
+						</div>
+						<button class="services__toggle" aria-expanded="false" aria-label="Подробнее о поддержке при утрате">
+							<i class="bx bx-chevron-down services__chevron" aria-hidden="true"></i>
+						</button>
+					</div>
+					<div class="services__content">
+						<div class="services__header">
+							<i class="bx bx-shield-quarter services__icon" aria-hidden="true"></i>
+							<h3 class="services__title">Ресурсный подход</h3>
+						</div>
+						<div class="services__body">
+							<p class="services__description">...</p>
+						</div>
+						<button class="services__toggle" aria-expanded="false" aria-label="Подробнее о ресурсном подходе">
+							<i class="bx bx-chevron-down services__chevron" aria-hidden="true"></i>
+						</button>
+					</div>
+				</div>
+			</section>
+			<!--===== SOURCE =====-->
+			<section class="resources" id="resources" aria-label="Материалы и миссия">
+				<div class="resources__container container">
+					<div class="resources__data">
+						<div class="resources__l-group">
+							<h2 class="resources__title">Полезные материалы</h2>
+							<!-- TODO: Написать пару слов от себя" -->
+							<p class="resources__description">
+								Я верю, что ментальное здоровье — это фундамент благополучия каждого человека. Моя миссия — поддерживать тех, кто ищет помощь, и способствовать повышению психологической грамотности в обществе. Здесь я собрала полезные ресурсы и контакты служб экстренной помощи.
+							</p>
+							<a href="#contact" class="button button__light resources__button">
+								Связаться со мной
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="links section" id="links" aria-label="Полезные ресурсы и телефоны доверия">
+				<h2 class="section-title">Экстренная помощь и ресурсы</h2>
+				<p style="text-align: center; margin-bottom: 2rem; font-style: italic;">Если вы или ваш близкий человек находитесь в кризисном состоянии, пожалуйста, не оставайтесь с этим в одиночестве. Ниже представлены бесплатные всероссийские службы помощи.</p>
+				<div class="links__container grid">
+					<div class="links__group">
+						<div class="links__group-head">
+							<img src="images/1.webp" alt="Служба экстренной психологической помощи" class="links__logo" />
+							<div class="links__info">
+								<h3 class="links__title">МЧС России</h3>
+								<p class="links__subtitle">
+									Звоните:
+									<a href="tel:+74959895050">+7 (495) 989-50-50</a>
+								</p>
+								<a href="https://www.mchs.gov.ru/deyatelnost/bezopasnost-grazhdan/psihologicheskaya-pomosh" target="_blank" rel="noopener noreferrer" class="links__cta">
+									Перейти на сайт
+								</a>
+							</div>
+						</div>
+						<p class="links__description">Служба экстренной психологической помощи МЧС России. Круглосуточная анонимная линия для людей, переживающих острый стресс, горе, тревогу или находящихся в кризисной ситуации. Звонок бесплатный из любого региона РФ.</p>
+					</div>
+					<div class="links__group">
+						<img src="images/2.webp" alt="Детский телефон доверия" class="links__logo" />
+						<h3 class="links__title">Детский телефон доверия</h3>
+						<p class="links__subtitle">
+							Звоните:
+							<a href="tel:88002000122">8-800-2000-122</a>
+							(бесплатно)
+						</p>
+						<p class="links__description">Всероссийский телефон доверия для детей, подростков и их родителей. Анонимная и бесплатная помощь при стрессе, конфликтах, насилии и суицидальных мыслях. Работает круглосуточно во всех регионах России.</p>
+					</div>
+					<div class="links__group">
+						<img src="images/3.webp" alt="Служба Ясное утро" class="links__logo" />
+						<h3 class="links__title">Служба «Ясное утро»</h3>
+						<p class="links__subtitle">
+							Звоните:
+							<a href="tel:88001000191">8-800-100-0191</a>
+						</p>
+						<p class="links__description">Бесплатная горячая линия психологической и юридической помощи для людей с онкологическими заболеваниями и их близких. Работает круглосуточно.</p>
+					</div>
+					<div class="links__group">
+						<img src="images/4.webp" alt="Национальная горячая линия" class="links__logo" />
+						<h3 class="links__title">Горячая линия по зависимостям</h3>
+						<p class="links__subtitle">
+							Звоните:
+							<a href="tel:88006001652">8-800-600-16-52</a>
+						</p>
+						<p class="links__description">Национальная горячая линия помощи людям с алкогольной и наркотической зависимостью, а также их родственникам. Консультации специалистов, информация о реабилитационных центрах.</p>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer" id="contact">
+			<div class="footer__top">
+				<div class="footer__container container">
+					<div class="footer__col footer__col--contact">
+						<h2 class="footer__title">Свяжитесь со мной</h2>
+						<p class="footer__text">
+							В настоящее время я открыта для записи на очные консультации в Челябинске и онлайн-сессии. 
+							Если вы хотите записаться на прием или у вас есть вопросы о формате моей работы, 
+							пожалуйста, не стесняйтесь написать или позвонить мне. Буду рада поддержать вас 
+							на пути к внутреннему равновесию и благополучию.
+						</p>
+					</div>
+					<div class="footer__col footer__col--info">
+						<h3 class="footer__heading">Телефон</h3>
+						<!-- TODO: реальный номер телефона -->
+						<a href="tel:+79001234567" class="footer__link" aria-label="Позвонить по номеру +7 900 123-45-67">+7 (900) 123-45-67</a>
+						<h3 class="footer__heading">Формат</h3>
+						<ul class="footer__list">
+							<li>Онлайн-консультации (видеосвязь)</li>
+						</ul>
+					</div>
+					<div class="footer__col footer__col--connect">
+						<h3 class="footer__heading">Мои соцсети</h3>
+						<div class="footer__social">
+							<!-- TODO: Telegram -->
+							<a
+								href="https://t.me/username"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="footer__social-link"
+								aria-label="Написать в Telegram">
+								<i class="bx bxl-telegram" aria-hidden="true"></i>
+							</a>
+							<!-- TODO: ВКонтакте -->
+							<a
+								href="https://vk.com/username"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="footer__social-link"
+								aria-label="Профиль или группа ВКонтакте">
+								<i class="bx bxl-vk" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<p class="footer__copy">
+						&copy; <span id="copyright-year"></span> Анастасия Семякина. Все права защищены.
+					</p>
+				</div>
+			</div>
+			<script>document.getElementById('copyright-year').textContent = new Date().getFullYear();</script>
+		</footer>
+		<script src="js/main.js"></script>
+	</body>
+</html>
