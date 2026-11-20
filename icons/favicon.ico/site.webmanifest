@@ -1,0 +1,20 @@
+{
+    "name": "Анастасия Семякина | Психолог",
+    "short_name": "Психолог Семякина",
+    "icons": [
+        {
+            "src": "/icons/favicon.ico/android-chrome-192x192.jpg",
+            "sizes": "192x192",
+            "type": "image/jpg"
+        },
+        {
+            "src": "/icons/favicon.ico/android-chrome-256x256.jpg",
+            "sizes": "256x256",
+            "type": "image/jpg"
+        }
+    ],
+    "theme_color": "#63732f",
+    "background_color": "#63732f",
+    "display": "standalone",
+    "start_url": "/"
+}
